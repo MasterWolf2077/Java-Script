@@ -15,10 +15,10 @@ let action = prompt("Choose action: show (first), show (last), add (new)");
 let last = contacts.length - 1;
 switch (action) {
     case "first":
-        console.log('${contacts[0].name} / ${contacts[0].phone} / ${contacts[0].email}');
+        console.log(`${contacts[0].name} / ${contacts[0].phone} / ${contacts[0].email}`);
         break;
     case "last":
-        console.log('${contacts[last].name} / ${contacts[last].phone} / ${contacts[last].email}');
+        console.log(`${contacts[last].name} / ${contacts[last].phone} / ${contacts[last].email}`);
         break;
     case "new":
         let name = prompt("Enter user name");
